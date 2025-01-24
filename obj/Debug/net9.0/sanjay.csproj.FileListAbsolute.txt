@@ -1,0 +1,14 @@
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\bin\Debug\net9.0\sanjay.exe
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\bin\Debug\net9.0\sanjay.deps.json
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\bin\Debug\net9.0\sanjay.runtimeconfig.json
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\bin\Debug\net9.0\sanjay.dll
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\bin\Debug\net9.0\sanjay.pdb
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.AssemblyInfoInputs.cache
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.AssemblyInfo.cs
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.csproj.CoreCompileInputs.cache
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.dll
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\refint\sanjay.dll
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.pdb
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\sanjay.genruntimeconfig.cache
+C:\Users\sanjay.jangir\Desktop\dotnet by sanjay\sanjay\obj\Debug\net9.0\ref\sanjay.dll
