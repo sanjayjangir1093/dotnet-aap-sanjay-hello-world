@@ -15,7 +15,7 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 
 # Use the official .NET runtime image to run the application
-FROM mcr.microsoft.com/dotnet/runtime:7.0
+FROM mcr.microsoft.com/dotnet/runtime:9.0
 
 # Set the working directory
 WORKDIR /app
@@ -24,4 +24,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Specify the command to run the application
-ENTRYPOINT ["dotnet", "HelloWorld.dll"]
+ENTRYPOINT ["dotnet", "HelloSanjay.dll"]
