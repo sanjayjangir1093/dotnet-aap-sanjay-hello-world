@@ -24,4 +24,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Specify the command to run the application
-ENTRYPOINT ["dotnet", "HelloSanjay.dll"]
+ENTRYPOINT ["dotnet", "Hello, Sanjay!"]
