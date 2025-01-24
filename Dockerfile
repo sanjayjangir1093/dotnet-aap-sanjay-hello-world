@@ -1,27 +1,26 @@
+# Use the official ASP.NET runtime image as the base
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+
 # Use the official .NET SDK image to build the application
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+COPY . /src
+WORKDIR /src
 
-# Set the working directory
+# List files for debugging
+RUN ls
+
+# Restore dependencies and build the application
+RUN dotnet build "sanjay.csproj" -c Release -o /app/build
+
+# Publish the application
+FROM build AS publish
+RUN dotnet publish "sanjay.csproj" -c Release -o /app/publish
+
+# Use the base image for the final stage
+FROM base AS final
 WORKDIR /app
-
-# Copy the project file and restore dependencies
-COPY *.csproj ./
-RUN dotnet restore
-
-# Copy the rest of the application code
-COPY . ./
-
-# Build the application
-RUN dotnet publish -c Release -o out
-
-# Use the official .NET runtime image to run the application
-FROM mcr.microsoft.com/dotnet/runtime:7.0
-
-# Set the working directory
-WORKDIR /app
-
-# Copy the build output from the previous stage
-COPY --from=build /app/out .
+COPY --from=publish /app/publish .
 
 # Specify the command to run the application
-ENTRYPOINT ["dotnet", "Hello, Sanjay!"]
+ENTRYPOINT ["dotnet", "HelloSanjay.dll"]
