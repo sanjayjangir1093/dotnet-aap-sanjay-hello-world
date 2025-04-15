@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tiAJASW6WEY=",
+  "dgSpecHash": "W28Xf1Wv9Y4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sanjay.jangir\\Desktop\\dotnet by sanjay\\sanjay\\sanjay.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sanjay.jangir\\Downloads\\dotnet-aap-sanjay-hello-world\\sanjay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanjay.jangir\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\sanjay.jangir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\sanjay.jangir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\sanjay.jangir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
